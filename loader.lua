@@ -18,6 +18,8 @@ else
 end
 local PlaceIds = {
     [11156779721] = "https://api.luarmor.net/files/v3/loaders/fd060e320f251948f3e8cc0d7f2561ac.lua",
+    [13772394625] = "https://api.luarmor.net/files/v3/loaders/aa010b7dc1a34c1b1c00bd094666d1e3.lua",
+    
 }
 
 local currentPlaceId = game.PlaceId
