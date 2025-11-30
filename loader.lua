@@ -21,7 +21,8 @@ local PlaceIds = {
     [13772394625] = "https://api.luarmor.net/files/v3/loaders/aa010b7dc1a34c1b1c00bd094666d1e3.lua",
     [17625359962] = "https://api.luarmor.net/files/v3/loaders/4cc022ded41f6816ba0f7fb8c6dda44f.lua",
     [537413528] = "https://api.luarmor.net/files/v3/loaders/ceffc1990de0fccb11999c53856ccd55.lua",
-    
+    [76558904092080] = "https://api.luarmor.net/files/v3/loaders/34c43d39431b1d16b9934f1122fd6f02.lua",
+    [129009554587176] = "https://api.luarmor.net/files/v3/loaders/34c43d39431b1d16b9934f1122fd6f02.lua",
 }
 
 local currentPlaceId = game.PlaceId
