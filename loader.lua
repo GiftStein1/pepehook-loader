@@ -9,6 +9,7 @@ local supportedExecutors = {
     ["Volcano"] = true,
     ["Hydrogen"] = true,
     ["Macsploit"] = true,
+    ["Potassium"] = true,
     ["Volt"] = true,
     ["ChocoSploit"] = true,
     ["Bunni"] = true,
