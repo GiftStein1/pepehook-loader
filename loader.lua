@@ -28,6 +28,7 @@ local PlaceIds = {
     [17625359962] = "https://api.luarmor.net/files/v3/loaders/4cc022ded41f6816ba0f7fb8c6dda44f.lua",
     [76558904092080] = "https://api.luarmor.net/files/v3/loaders/34c43d39431b1d16b9934f1122fd6f02.lua",
     [129009554587176] = "https://api.luarmor.net/files/v3/loaders/34c43d39431b1d16b9934f1122fd6f02.lua",
+    [131884594917121] = "https://api.luarmor.net/files/v3/loaders/34c43d39431b1d16b9934f1122fd6f02.lua",
     [121864768012064] = "https://api.luarmor.net/files/v3/loaders/b65dd9431e917a54cc84ed933242a95c.lua",
 }
 
