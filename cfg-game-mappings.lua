@@ -27,5 +27,5 @@ return {
     -- The Forge
     ["76558904092080"] = { base = "TheForge", sub = "World1_TheForge" },
     ["129009554587176"] = { base = "TheForge", sub = "World2_ForgottenKingdom" },
-    ["139847205847123"] = { base = "TheForge", sub = "World3_FrostspireExpanse" },
+    ["131884594917121"] = { base = "TheForge", sub = "World3_FrostspireExpanse" },
 }
