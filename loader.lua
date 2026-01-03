@@ -22,7 +22,7 @@ local ids = { -- scripts
         display = 'Rivals',
         script = '0dcb55226cdc9c555276db48ae35021f',
         find = {
-            universe = 6035872072,
+            universe = 6035872082,
         }
     },
 
