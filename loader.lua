@@ -20,7 +20,7 @@ local supported = {
 local ids = { -- scripts
     { -- rivals
         display = 'Rivals',
-        script = '0dcb55226cdc9c555276db48ae35021f',
+        uuid = '0dcb55226cdc9c555276db48ae35021f', 
         find = {
             universe = 6035872082,
         }
@@ -66,28 +66,25 @@ local function parse(this)
     if type(this) == 'number' then
         return { this }
     end
-
     return this
 end
 
-for _, script in ids do
+for _, scriptData in ids do
     parsed[_] = {
-        uuid = script.uuid,
+        uuid = scriptData.uuid,
         find = {
-            universe = parse(script.find.universe) or { },
-            place = parse(script.find.place) or { },
-            name = script.find.name,
-            fn = script.find.fn
+            universe = parse(scriptData.find.universe) or { },
+            place = parse(scriptData.find.place) or { },
+            name = scriptData.find.name,
+            fn = scriptData.find.fn
         }
     }
-
-    parsed[_].display = script.display or script.find.name or script.uuid or '?'
+    parsed[_].display = scriptData.display or scriptData.find.name or scriptData.uuid or '?'
 end
 
 for _, data in parsed do
     if type(data.fn) == 'function' then
         local success, status = pcall(data.fn, data)
-
         if success and status then
             script = data
             break
@@ -118,7 +115,6 @@ if script and script.uuid then
         local ok, _ = pcall(function()
             local url = string.format('%s/%s.lua', baseURL, script.uuid or '?')
             local src = game:HttpGet(url)
-
             return loadstring(src)()
         end)
 
