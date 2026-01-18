@@ -3,6 +3,7 @@ return {
         ["6035872082"] = "Rivals",
         ["5750914919"] = "Fisch",
         ["6701277882"] = "FishIt", 
+        ["7326934954"] = "99NightsInTheForest",
         ["4777817887"] = "BladeBall",
     },
     
